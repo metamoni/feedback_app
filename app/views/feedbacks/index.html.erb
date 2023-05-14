@@ -1,0 +1,12 @@
+<div>
+  <h1 class="font-bold text-4xl">All feedback</h1>
+
+  <% if @feedbacks.empty? %>
+    <p>No feedback recorded yet</p>
+  <% else%>
+    <% @feedbacks.each do |f| %>
+      <h2>Feedback #<%= f.id %></h2>
+      <p><%= f.content %>
+    <% end %>
+  <% end %>
+</div>
