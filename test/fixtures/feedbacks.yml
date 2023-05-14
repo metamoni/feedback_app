@@ -1,0 +1,4 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+hr:
+  content: The services offered by the current private healthcare provider are not great. Would you consider choosing a new provider in the future?
